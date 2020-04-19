@@ -25,9 +25,9 @@ target_include_directories( smart_home_display
 )
 
 
-#target_link_libraries( smart_home_display
-#    PRIVATE
-#        
-#)
+target_link_libraries( smart_home_display
+    PRIVATE
+	Qt5::Widgets        
+)
 
 

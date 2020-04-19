@@ -1,7 +1,9 @@
 #include <iostream>
 #include <Device.h>
-int main(int argc, char** argv){
-	std::cout << "Hello world" << std::endl;
+#include <QApplication>
 
-	return 0;
+int main(int argc, char** argv){
+	QApplication app(argc, argv);
+
+	app.exec();
 }
