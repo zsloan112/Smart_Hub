@@ -1,9 +1,13 @@
 #include <iostream>
-#include <Device.h>
+#include "inc/SmartHub.h"
 #include <QApplication>
+int main(int argc, char* argv[]){
+	
+	QApplication window(argc, argv);
+	SmartHub smartHub;
 
-int main(int argc, char** argv){
-	QApplication app(argc, argv);
+	smartHub.show();
 
-	app.exec();
+	return window.exec();
+	
 }
